@@ -16,11 +16,11 @@ We present a step-by-step derivation bridging the Causal Fermion Systems (CFS) f
 
 Let $\mathcal{H}$ be a separable Hilbert space, and let $F(x) \in \mathcal{F} \subset \, \text{L}(\mathcal{H})$ be a self-adjoint operator with finite rank and trace. Define a universal measure $\rho$ on $\mathcal{F}$. The CFS action is:
 
-$\mathcal{S}[\rho] = \iint_{\mathcal{F} \times \mathcal{F}} \mathcal{L}(x, y) \, d\rho(x) \, d\rho(y)$
+$$\mathcal{S}[\rho] = \iint_{\mathcal{F} \times \mathcal{F}} \mathcal{L}(x, y) \, d\rho(x) \, d\rho(y)$$
 
 The Lagrangian $\mathcal{L}(x,y)$ is typically defined by operator spectral overlap:
 
-$\mathcal{L}(x, y) = \| F(x)F(y) \|^2 - \lambda \, \| F(x) \|^2 \| F(y) \|^2$
+$$\mathcal{L}(x, y) = \| F(x)F(y) \|^2 - \lambda \, \| F(x) \|^2 \| F(y) \|^2$$
 
 ---
 
@@ -28,11 +28,11 @@ $\mathcal{L}(x, y) = \| F(x)F(y) \|^2 - \lambda \, \| F(x) \|^2 \| F(y) \|^2$
 
 In OTR, the exclusion field $N(x)$ represents frozen fermionic constraints from early-universe symbolic topology. We promote $N(x)$ to an operator trace:
 
-$N(x) \leftrightarrow \text{Tr}[F(x)]$
+$$N(x) \leftrightarrow \text{Tr}[F(x)]$$
 
 Symbolic curvature tensors are:
 
-$\mathcal{R}_{\mu\nu} \sim \nabla_\mu \nabla_\nu N(x) - g_{\mu\nu} \Box N(x)$
+$$\mathcal{R}\_{\mu\nu} \sim \nabla_\mu \nabla_\nu N(x) - g_{\mu\nu} \Box N(x)$$
 
 Thus, the symbolic curvature gradient emerges as a functional of variations in operator spectra across $\rho$.
 
@@ -42,12 +42,12 @@ Thus, the symbolic curvature gradient emerges as a functional of variations in o
 
 Using the variation of correlation operators $F(x)$, we define an effective stress-energy tensor:
 
-$T_{\mu\nu}^{\text{eff}} = T_{\mu\nu}^{\text{matter}} + T_{\mu\nu}^{N(v)} + T_{\mu\nu}^{\text{wake}}(z)$
+$$T_{\mu\nu}^{\text{eff}} = T_{\mu\nu}^{\text{matter}} + T_{\mu\nu}^{N(v)} + T_{\mu\nu}^{\text{wake}}(z)$$
 
 Where:
 
 * $T_{\mu\nu}^{N(v)}$ is the frozen exclusion background, seeded by early-universe neutrino exclusion pressure (fermionic trace invariant)
-* $T_{\mu\nu}^{\text{wake}}(z) \sim \delta \text{Tr}[F(x)] \cdot \log(1 + z)$
+* $T_{\mu\nu}^{\text{wake}}(z) \sim \delta \text{Tr}[F(x)] \cdot \log(1 + z\)$
 
 ---
 
@@ -59,7 +59,7 @@ $\delta \mathcal{S}[\rho] = 0 \Rightarrow \text{Euler-Lagrange operator equation
 
 We project this operator structure into spacetime using the OTR geometric prescription:
 
-$\mathcal{G}_{\mu\nu} = 8\pi G \left( T_{\mu\nu}^{\text{matter}} + \rho_{N(v)} g_{\mu\nu} + f(z) g_{\mu\nu} \right)$
+$$\mathcal{G}\_{\mu\nu} = 8\pi G \left( T_{\mu\nu}^{\text{matter}} + \rho_{N(v)} g_{\mu\nu} + f(z) g_{\mu\nu} \right)$$
 
 ---
 
@@ -67,7 +67,9 @@ $\mathcal{G}_{\mu\nu} = 8\pi G \left( T_{\mu\nu}^{\text{matter}} + \rho_{N(v)} g
 
 Thus, Einstein’s field equations emerge as:
 
-$\mathcal{G}_{\mu\nu} + \Lambda g_{\mu\nu} = 8\pi G \, T_{\mu\nu}^{\text{eff}}$
+$$
+\mathcal{G}\_{\mu\nu} + \Lambda g_{\mu\nu} = 8\pi G T_{\mu\nu}^{\mathrm{eff}}
+$$
 
 with:
 
