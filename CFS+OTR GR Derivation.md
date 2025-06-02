@@ -16,11 +16,11 @@ We present a step-by-step derivation bridging the Causal Fermion Systems (CFS) f
 
 Let $\mathcal{H}$ be a separable Hilbert space, and let $F(x) \in \mathcal{F} \subset \, \text{L}(\mathcal{H})$ be a self-adjoint operator with finite rank and trace. Define a universal measure $\rho$ on $\mathcal{F}$. The CFS action is:
 
-$$\mathcal{S}[\rho] = \iint_{\mathcal{F} \times \mathcal{F}} \mathcal{L}(x, y) \, d\rho(x) \, d\rho(y)$$
+$$\mathcal{S}[\rho] = \iint_{\mathcal{F} \times \mathcal{F}} \mathcal{L}(x, y) d\rho(x) d\rho(y)$$
 
 The Lagrangian $\mathcal{L}(x,y)$ is typically defined by operator spectral overlap:
 
-$$\mathcal{L}(x, y) = \| F(x)F(y) \|^2 - \lambda \, \| F(x) \|^2 \| F(y) \|^2$$
+$$\mathcal{L}(x, y) = \parallel F(x)F(y) \parallel^2 - \lambda \parallel F(x) \parallel^2 \parallel F(y) \parallel^2$$
 
 ---
 
