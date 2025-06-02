@@ -54,7 +54,7 @@ Where:
 * $f(N)$ is a monotonic increasing function derived from symbolic geometry.
 
 **Symbolic curvature tensor:**
-$\mathcal{R}_{\mu\nu} = \nabla_\mu \nabla_\nu N(x) - g_{\mu\nu} \Box N(x)$
+$\mathcal{R}\_{\mu\nu} = \nabla_\mu \nabla_\nu N(x) - g_{\mu\nu} \Box N(x)$
 
 **Dark energy decomposition:**
 $\rho_{\Lambda}(z) = \rho_{N(v)} + \rho_{\text{wake}}(z)$
@@ -75,7 +75,7 @@ Where:
 * $\rho_{\text{wake}}(z)$: decaying curvature memory
 
 **Symbolic curvature Lagrangian:**
-$\mathcal{L}_N = -\frac{1}{2} (\partial_\mu N)(\partial^\mu N) - V(N)$
+$\mathcal{L}\_N = -\frac{1}{2} (\partial_\mu N)(\partial^\mu N) - V(N)$
 
 **Exclusion potential form (example):**
 $V(N) = \lambda N^4$
@@ -83,7 +83,7 @@ Or other symmetry-preserving forms.
 
 **Unified Lagrangian (Work to be Done):**
 We tentatively propose the following symbolic structure as a potential point of contact with causal operator formalisms:
-$\mathcal{L}_{\text{OTR-total}} = \mathcal{L}_N + \mathcal{L}_{\text{matter}} + \mathcal{L}_{\text{interaction}} + \mathcal{L}_{\text{background}}$
+$\mathcal{L}\_{\text{OTR-total}} = \mathcal{L}\_N + \mathcal{L}\_{\text{matter}} + \mathcal{L}\_{\text{interaction}} + \mathcal{L}_{\text{background}}$
 Where each term is intended to map to physical, symbolic, or spectral domains consistent with CFS. This symbolic unification remains under active development and is intended to serve as a conceptual bridge toward full Hilbert-space embedding.
 
 ---
