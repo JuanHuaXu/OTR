@@ -20,25 +20,25 @@ Omega Time Rotation (OTR) is a theoretical framework that proposes gravity and s
 ## Equation Highlights
 
 - **Omega Time Rotation:**
-$  
+$$  
   \[ \Delta \tau(x) = \Delta t \cdot \sqrt{1 - \Omega^2(x)} \]
-$
+$$
 - **Exclusion Field Curvature:**  
-$
+$$
   \[ \mathcal{R}_{\mu\nu} = \nabla_\mu \nabla_\nu N(x) - g_{\mu\nu} \Box N(x) \]
-$
+$$
 - **Dark Energy Composition:**  
-$
+$$
   \[ \rho_{\Lambda}(z) = \rho_{N(v)} + \rho_{\text{wake}}(z) \]
-$
+$$
 - **Exclusion-Based Hubble Expansion:**  
-$
+$$
   \[ H^2(z) = \frac{8\pi G}{3} \left[\rho_m(z) + \rho_r(z) + \rho_{N(v)} + \rho_{\text{wake}}(z)\right] \]
-$
+$$
 - **Symbolic Curvature Lagrangian:**  
-$
+$$
   \[ \mathcal{L}_N = -\frac{1}{2} (\partial_\mu N)(\partial^\mu N) - \lambda N^4 \]
-$
+$$
 ## Experimental Corroborations
 
 - Clock anomalies correlating with GW events (NIST/PTB/SYRTE)
@@ -77,13 +77,13 @@ Included in this repository
 
 This work is dual-licensed to support open access and proper attribution:
 
-    Theoretical Content (markdown, papers, diagrams):
-    Creative Commons Attribution 4.0 International (CC BY 4.0)
-    You are free to copy, adapt, and redistribute the material in any medium or format, with attribution.
+Theoretical Content (markdown, papers, diagrams):
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+You are free to copy, adapt, and redistribute the material in any medium or format, with attribution.
 
-    Code, Scripts, and Computational Models (if applicable):
-    MIT License
-    Permission is granted to use, modify, and distribute the software with or without modification.
+Code, Scripts, and Computational Models (if applicable):
+MIT License
+Permission is granted to use, modify, and distribute the software with or without modification.
 
 For contributions, please submit issues or pull requests with appropriate license attribution.
 ---
