@@ -20,7 +20,7 @@ Omega Time Rotation (OTR) is a theoretical framework that proposes gravity and s
 ## Equation Highlights
 
 - **Omega Time Rotation:**
-- 
+
 $$  
 \[ \Delta \tau(x) = \Delta t \cdot \sqrt{1 - \Omega^2(x)} \]
 $$
