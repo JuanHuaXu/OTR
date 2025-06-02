@@ -20,25 +20,35 @@ Omega Time Rotation (OTR) is a theoretical framework that proposes gravity and s
 ## Equation Highlights
 
 - **Omega Time Rotation:**
+- 
 $$  
 \[ \Delta \tau(x) = \Delta t \cdot \sqrt{1 - \Omega^2(x)} \]
 $$
+
 - **Exclusion Field Curvature:**  
+
 $$
-\[ \mathcal{R}_{\mu\nu} = \nabla_\mu \nabla_\nu N(x) - g_{\mu\nu} \Box N(x) \]
+\[ \mathcal{R}\_{\mu\nu} = \nabla_\mu \nabla_\nu N(x) - g_{\mu\nu} \Box N(x) \]
 $$
+
 - **Dark Energy Composition:**  
+
 $$
 \[ \rho_{\Lambda}(z) = \rho_{N(v)} + \rho_{\text{wake}}(z) \]
 $$
+
 - **Exclusion-Based Hubble Expansion:**  
+
 $$
 \[ H^2(z) = \frac{8\pi G}{3} \left[\rho_m(z) + \rho_r(z) + \rho_{N(v)} + \rho_{\text{wake}}(z)\right] \]
 $$
+
 - **Symbolic Curvature Lagrangian:**  
+
 $$
-\[ \mathcal{L}_N = -\frac{1}{2} (\partial_\mu N)(\partial^\mu N) - \lambda N^4 \]
+\[ \mathcal{L}\_N = -\frac{1}{2} (\partial_\mu N)(\partial^\mu N) - \lambda N^4 \]
 $$
+
 ## Experimental Corroborations
 
 - Clock anomalies correlating with GW events (NIST/PTB/SYRTE)
