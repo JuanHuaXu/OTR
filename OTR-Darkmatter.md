@@ -23,7 +23,9 @@ Observations of galactic rotation curves deviate significantly from predictions 
 **3. Model Implementation**
 Using a simplified Newtonian-GR hybrid model, we compute orbital velocities based on luminous mass and augment them with a wake field correction term:
 
-$v_{\text{total}}^2 = v_{\text{Kepler}}^2 + v_{\text{residual}}^2$
+$$
+v_{\text{total}}^2 = v_{\text{Kepler}}^2 + v_{\text{residual}}^2
+$$
 
 where:
 
@@ -32,7 +34,9 @@ where:
 
 and the wake memory retention factor $f_{\text{wake}}$ is dynamically computed as:
 
-$f_{\text{wake}} = \alpha \cdot \left( \frac{M_{\text{gal}}}{M_\odot} \right)^{\beta_1} \cdot \left( \frac{T_{\text{escape}}}{10^5\, \text{yr}} \right)^{\beta_2}$
+$$
+f_{\text{wake}} = \alpha \cdot \left( \frac{M_{\text{gal}}}{M_\odot} \right)^{\beta_1} \cdot \left( \frac{T_{\text{escape}}}{10^5\, \text{yr}} \right)^{\beta_2}
+$$
 
 where:
 
