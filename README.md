@@ -51,11 +51,14 @@ $$
 
 ## Experimental Corroborations
 
-- Clock anomalies correlating with GW events (NIST/PTB/SYRTE)
 - LIGO/VIRGO detector disagreements in GW170817
 - Dark energy residuals resolved via neutrino seeding
 - Resolution of 2.1 solar mass black hole upper bounds
 - Explanation for the absence of photon stars via symbolic wake asymmetry
+
+## Proposed Tests
+
+- [Atomic-clock coincidences with gravitational-wave events](OTR.md#atomic-clock-coincidence-tests): test synchronized high-cadence clock records with independent timing links and matched non-event windows.
 
 ## Current Status
 

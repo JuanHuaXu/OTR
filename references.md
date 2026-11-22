@@ -44,8 +44,8 @@
 10. Abbott, B. P. et al. (LIGO Scientific Collaboration and Virgo Collaboration). *GW170817: Observation of Gravitational Waves from a Binary Neutron Star Inspiral*, 2017.  
     [Phys. Rev. Lett. 119, 161101](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.119.161101)
 
-11. Delva, P., et al. *Test of Special Relativity Using a Fiber Network of Optical Clocks*, Nature Physics, 2021.  
-    [DOI:10.1038/s41567-020-01038-6](https://doi.org/10.1038/s41567-020-01038-6)
+11. Delva, P., et al. *Test of Special Relativity Using a Fiber Network of Optical Clocks*, Phys. Rev. Lett. 118, 221102 (2017).
+    [DOI:10.1103/PhysRevLett.118.221102](https://doi.org/10.1103/PhysRevLett.118.221102)
 
 12. Chou, C. W., Hume, D. B., Rosenband, T., & Wineland, D. J. *Optical Clocks and Relativity*, Science, 2010.  
     [DOI:10.1126/science.1192720](https://doi.org/10.1126/science.1192720)
