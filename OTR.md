@@ -106,12 +106,19 @@ Where:
 
 **Experimental efforts and observations:**
 
-* **April 2025:** Global atomic clock data (NIST/PTB/SYRTE) correlated with gravitational wave events suggest residual time anisotropies consistent with OTR ([Delva et al., 2017](https://doi.org/10.1103/PhysRevLett.118.221102)).
 * **May 2025:** LIGO/VIRGO discrepancy in GW170817 detection triangulation offers a falsifiable test bed for OTR curvature tensor predictions ([Abbott et al., 2017](https://doi.org/10.1103/PhysRevLett.119.161101)).
 * **May 2025:** Neutrino exclusion as a seeding mechanism for $\rho_{N(v)}$ resolves sub-10% discrepancies in H(z) across redshift buckets ([Planck 2018 Results](https://arxiv.org/abs/1807.06209); [Scolnic et al., 2018](https://doi.org/10.3847/1538-4357/aab9bb)).
 * **May 2025:** Omega rotation offers a natural mechanism for gravitational redshift in terms of time-space conversion in high-curvature events ([Misner, Thorne, Wheeler, 1973](https://press.princeton.edu/books/hardcover/9780691177793/gravitation)).
 * **May 2025:** The 2.1 solar mass black hole formation limit observed in LIGO data is consistent with OTR exclusion thresholds ([Margalit & Metzger, 2017](https://doi.org/10.3847/2041-8213/aa991c)).
 * **June 2025:** OTR explains the absence of photon stars via exclusion asymmetry and the lack of symbolic wake generation by bosons.
+
+### Atomic-clock coincidence tests
+
+The daily BIPM UTCr records in [data/Atomic_clocks](data/Atomic_clocks) report UTCr minus each laboratory's UTC realization in nanoseconds. Subtracting the [PTB](data/Atomic_clocks/utcr-ptb) values from the [NIST](data/Atomic_clocks/utcr-nist) values shows that UTC(NIST) lagged UTC(PTB) by **13.5, 13.5, and 13.6 ns** on September 13–15, 2015 (MJD 57278–57280). Similar gaps were already present relative to [OP/SYRTE](data/Atomic_clocks/utcr-op) (13.5, 13.7, and 13.9 ns) and [NMIJ](data/Atomic_clocks/utcr-nmij) (9.7, 9.6, and 9.9 ns). These are pre-existing inter-laboratory offsets, not evidence of a transient associated with a gravitational-wave event.
+
+The separate [NIST GPS table for September 14, 2015](https://sim.nist.gov/scripts/oneway-hourtable.exe?2015091406001T) lists ten-minute averages of GPS − SIMT(NIST): **16.67, 16.27, and 17.16 ns** at 09:40, 09:50, and 10:00 UTC. These are GPS time-transfer measurements, not optical-clock records. [GW150914 occurred at 09:50:45 UTC](https://gwosc.org/events/GW150914/); neither the daily UTCr series nor the ten-minute GPS averages tests a sub-second transient coincident with that event.
+
+[Delva et al. (2017)](https://doi.org/10.1103/PhysRevLett.118.221102) tested special relativity using fiber-linked optical clocks; the paper did not test gravitational-wave coincidences. An OTR clock-coincidence test remains a proposal: it requires synchronized high-cadence clock records capable of resolving the event timescale, independent timing links to assess transfer artifacts, and matched non-event windows to estimate the background.
 
 ---
 
